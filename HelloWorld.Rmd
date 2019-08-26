@@ -1,0 +1,18 @@
+---
+title: "Hello World markdown and code"
+author: "Victor Masch"
+date: "8/25/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## This is a markdown file
+```
+writeLines("\n This is a markdown file \n\n Hello World")
+
+```
+
